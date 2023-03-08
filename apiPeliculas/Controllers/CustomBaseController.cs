@@ -53,8 +53,10 @@ namespace apiPeliculas.Controllers
 
         protected async Task<ActionResult> Put<TCreation, TEntidad>(int id, TCreation creationDTO) where TEntidad : class, IId
         {
-            var entidad = mapper.Map<TEntidad>(creationDTO);
+            var entidad = mapper.Map<TEntidad>(creationDTO);            
             entidad.Id = id;
+
+            context.Entry(entidad).State = EntityState.Modified;
 
             await context.SaveChangesAsync();
 
