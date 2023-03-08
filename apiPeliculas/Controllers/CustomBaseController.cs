@@ -92,7 +92,7 @@ namespace apiPeliculas.Controllers
                 return BadRequest("El elemento a eliminar no existe");
             }
 
-            context.Remove(new TEntidad(){ Id = id });
+            context.Entry(entity: entity).State = EntityState.Deleted; 
          
             await context.SaveChangesAsync();
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dOE9/in4R8YVi3X+ffFlh1VspJHs0aEl+R26/ft0uA4=",
+  "Hash": "btm1opCnEWI2Bmlb+4jlFzVZywhBCuaLGGOC7jRRtFA=",
   "Source": "apiPeliculas",
   "BasePath": "_content/apiPeliculas",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "apiPeliculas\\wwwroot",
       "Source": "apiPeliculas",
-      "ContentRoot": "C:\\Users\\Agustin Favot\\Documents\\PROGRAMACION\\C#\\apiPeliculas\\apiPeliculas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Agustin Favot\\Documents\\AGUSTIN\\PROGRAMACION\\C#\\ApiCine\\apiPeliculas\\wwwroot\\",
       "BasePath": "_content/apiPeliculas",
       "Pattern": "**"
     }
